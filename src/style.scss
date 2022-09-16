@@ -1,0 +1,15 @@
+$primay-color:rgb(50, 50, 50);
+$secondary-color:rgb(89, 175, 153);
+$form-color:rgb(69, 69, 69);
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+@import "_navigation.scss";
+@import "_site-main-hero.scss";
+@import "_site-profile.scss";
+@import "_site-main-form.scss";
+@import "_breakpoint.scss";

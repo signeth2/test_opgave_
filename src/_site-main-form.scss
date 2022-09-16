@@ -1,0 +1,67 @@
+.site-main-form {
+    height: 600px;
+    background-color: $primay-color;
+    color: white;
+    position: relative;
+    p {
+        color: rgba(250, 250, 250, 0.5);
+        font-size: 16px;
+        b {
+            color: rgba(250, 250, 250, 0.8);
+        }
+    }
+    .box {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto 20%;
+        .form-text {
+            width: 100%;
+            padding-top: 60px;
+        }
+        .form {
+            gap: 30px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        input {
+            background-color: $form-color;
+            width: 550px;
+            height: 40px;
+            border: none;
+            margin-top: 15px;
+            color: white;
+        }
+        textarea {
+            background: $form-color;
+            border: none;
+            width: 550px;
+            margin-top: 15px;
+            max-width: 550px;
+            max-height: 150px;
+            color: white;
+        }
+        .btn {
+            width: 100px;
+            height: 40px;
+            background-color: $secondary-color;
+            color: white;
+            display: block;
+            margin-left: 82%;
+        }
+        .form-box {
+            width: 30%;
+            line-height: 30px;
+            text-align: justify;
+            ul {
+                margin-top: 30px;
+                li {
+                    list-style: none;
+                    opacity: 50%;
+                }
+            }
+        }
+    }
+}

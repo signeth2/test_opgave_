@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="site-nav">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">PORTFOLIO</a>
+                </li>
+                <li>
+                    <a href="#">ABOUT</a>
+                </li>
+                <a href="#">
+                    <div class="logo"></div>
+                </a>
+
+                <div class="arrow"></div>
+                <li>
+                    <a href="#">BLOGS</a>
+                </li>
+                <li style="width:120px; margin-left:5px;">
+                    <a href="#">GET IN TOUCH</a>
+                </li>
+            </ul>
+
+        </nav>
+    </div>
+    <hr>
+    <div class="site-main">
+        <div class="wrap">
+            <div class="container">
+                <img id="myImage" src="src/img/img1.png" alt="">
+                <img class="even " src="src/img/img3.png" alt="">
+                <img id="myImage5" class="even" src="src/img/img7.png" alt="">
+                <img id="myImage2" class="even" src="src/img/img5.png" alt="">
+            </div>
+            <div class="container2">
+                <img class="odd" src="src/img/img13.png" alt="">
+                <img class="odd" src="src/img/img8.png" alt="">
+                <img id="myImage3" class="odd" src="src/img/img10.png" alt="">
+                <img class="odd" src="src/img/img2.png" alt="">
+                <img id="myImage6" class="odd" src="src/img/img12.png" alt="">
+            </div>
+            <div class="container">
+                <img class="even" src="src/img/img14.png" alt="">
+                <img id="myImage4" class="even" src="src/img/img11.png" alt="">
+                <img class="even" src="src/img/img9.png" alt="">
+                <img class="even" src="src/img/img6.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <span class="dot" onclick="changeImage()"></span>
+            <span class="dot" onclick="changeImage2()"></span>
+            <span class="dot" onclick="changeImage3()"></span>
+            <span class="dot" onclick="changeImage4()"></span>
+            <span class="dot" onclick="changeImage5()"></span>
+            <span class="dot" onclick="changeImage6()"></span>
+        </div>
+        <hr>
+        <div class="profile ">
+            <div class="profile-box ">
+                <div class="portrait "></div>
+                <div class="profile-info ">
+                    <h2>Smith Anderson</h2>
+                    <h3>Illustrator & Charactor designer</h3>
+                    <p>Bacon ipsum dolor amet pig ham rump, short ribs spare ribs shankle chicken landjaeger jowl chuck tongue kielbasa. Shank picanha cupim beef corned beef leberkas. Sausage burgdoggen short loin bresaola kielbasa. Swine pancetta tri-tip,
+                        pastrami chuck pork flank jowl leberkas jerky. Bacon ipsum dolor amet pig pork flank jowl leberkas jerky. </p>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="site-main-form ">
+        <div class="box ">
+            <div class="form-text ">
+                <h2>Get In Touch</h2>
+                <p>In order to get in touch use the contact form below:</p>
+            </div>
+            <div class="form ">
+                <div class="form-input ">
+                    <form id="form ">
+                        <input type="text" required id="name " minlength="3 " maxlength="15 " placeholder="Name[required] "> <br>
+                        <input for="email" required type="email " minlength="3 " maxlength="15 " placeholder="Email[required] "> <br>
+                        <input type="text" required placeholder="Subject " minlength="3 " maxlength="15 "> <br>
+                        <textarea cols="30" rows="15 " minlength="10 " maxlength="250 " placeholder="Write your message here... "></textarea>
+                        <input value="SEND" class="btn " type="submit">
+
+                    </form>
+
+                </div>
+                <div class="form-box ">
+                    <p>
+                        <b>Quisque Hendric:</b>Bacon ipsum dolor amet pig ham rump, short ribs spare ribs shankle chicken landjaeger jowl chuck tongue kielbasa. Shank picanha cupim beef corned beef leberkas. Sausage burgdoggen short loin bresaola kielbasa.
+                    </p>
+                    <ul>
+                        <li>Elm st. 14/05 Lost City</li>
+                        <li>+3328 3318635</li>
+                        <li>info@master.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="src/script.js "></script>
+</body>
+
+</html>

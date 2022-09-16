@@ -1,0 +1,42 @@
+.site-nav {
+    background-color: $primay-color;
+    height: 65px;
+    ul {
+        display: flex;
+        justify-content: center;
+        li {
+            margin-top: 32px;
+            list-style: none;
+            width: 90px;
+            margin-left: 30px;
+            a {
+                text-decoration: none;
+                color: white;
+                font-size: 12px;
+            }
+            a:hover {
+                color: $secondary-color;
+            }
+        }
+    }
+    .logo {
+        position: relative;
+        top: 20px;
+        width: 60px;
+        height: 55px;
+        background-image: url("./img/logo.png");
+        background-size: cover;
+        background-repeat: none;
+        z-index: 1;
+    }
+    .arrow {
+        position: absolute;
+        top: 55px;
+        margin: auto auto;
+        width: 0;
+        height: 0;
+        border-left: 60px solid transparent;
+        border-right: 60px solid transparent;
+        border-top: 40px solid $primay-color;
+    }
+}

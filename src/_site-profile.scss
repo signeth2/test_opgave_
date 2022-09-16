@@ -1,0 +1,37 @@
+.profile {
+    height: 350px;
+    background-color: $secondary-color;
+    position: relative;
+    .profile-box {
+        display: grid;
+        width: 60%;
+        gap: 10px;
+        grid-template-columns: 200px 85%;
+        position: absolute;
+        top: 25%;
+        left: 15%;
+        color: white;
+        .portrait {
+            width: 200px;
+            height: 200px;
+            margin: auto 10px;
+            background-image: url("../src/img/img8.png");
+            background-size: cover;
+            clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+        }
+        p {
+            line-height: 30px;
+            margin-top: 10px;
+        }
+        h3 {
+            color: rgba(40, 40, 40, 0.4);
+        }
+        h2 {
+            font-weight: 200;
+        }
+        .profile-info {
+            margin: -10px auto;
+            text-align: justify;
+        }
+    }
+}

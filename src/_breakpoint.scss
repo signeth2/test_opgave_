@@ -1,0 +1,56 @@
+@media screen and (max-width: 992px) {
+    * {
+        .site-main {
+            .wrap {
+                width: 100%;
+                margin: auto auto;
+                .container2 {
+                    width: 90%;
+                    margin-left: 10%;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                }
+                .container {
+                    width: 90%;
+                    margin-left: 10%;
+                }
+            }
+            .profile {
+                height: 600px;
+                .profile-box {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 80%;
+                    top: 15%;
+                    left: 10%;
+                    .portrait {
+                        margin: auto auto;
+                    }
+                }
+            }
+        }
+        .site-main-form {
+            height: 110vh;
+            .box {
+                margin: auto 15%;
+                .form-text {
+                    width: 100%;
+                }
+                input {
+                    background-color: $form-color;
+                    width: 100%;
+                }
+                textarea {
+                    width: 550px;
+                    max-width: 350px;
+                }
+                .form-box {
+                    width: 90%;
+                }
+                .btn {
+                    margin-left: 35%;
+                }
+            }
+        }
+    }
+}
